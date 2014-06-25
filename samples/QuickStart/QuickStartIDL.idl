@@ -1,0 +1,33 @@
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(22B26DE5-83C8-4f6c-8BAA-DD1A444BD6A0),
+	helpstring("VCOM Quick Start Type Library"),
+	version(1.0)
+]
+library QuickStart
+{
+	[
+		uuid(63E310BE-BACA-4ca0-BA5F-038B34CB5718),
+		helpstring("VCOM Quick Start Interface"),
+		version(1.0),
+		dual, oleautomation
+	]
+	interface IQuickStart : IDispatch
+	{
+		HRESULT SquareRoot([in] VARIANT number, [out, retval] VARIANT* result);
+	};
+
+	[
+		uuid(FBC54865-02B9-4b83-8324-DD26A3868B3B),
+		helpstring("VCOM Quick Start Component"),
+		version(1.0)
+	]
+	coclass QuickStart
+	{
+		[default] interface IQuickStart;
+	};
+
+};

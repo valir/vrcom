@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QuickStart - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\temp\RSP27E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "QUICKSTART_EXPORTS" /FR"Debug/" /Fp"Debug/QuickStart.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\DEV\DOC\VCOM\QuickStart\QuickStart.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP27E.tmp" 
+Creating temporary file "c:\temp\RSP27F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/QuickStart.pdb" /debug /machine:I386 /def:".\QuickStart.def" /out:"Debug/QuickStart.dll" /implib:"Debug/QuickStart.lib" /pdbtype:sept 
+.\Debug\QuickStart.obj
+.\Debug\QuickStartMain.obj
+.\Debug\stdafx.obj
+.\Debug\QuickStart.res
+]
+Creating command line "link.exe @c:\temp\RSP27F.tmp"
+<h3>Output Window</h3>
+Compiling...
+QuickStart.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/QuickStart.bsc"  .\Debug\stdafx.sbr .\Debug\QuickStart.sbr .\Debug\QuickStartMain.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+QuickStart.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
