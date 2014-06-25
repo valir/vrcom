@@ -32,3 +32,6 @@ Ok, tell me more about it !
 ===========================
 
 Have a look at the QuickStart example project, under the samples directory.
+
+See also this blog entry:
+http://www.rusu.info/wp/?p=287
