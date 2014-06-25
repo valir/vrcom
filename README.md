@@ -26,7 +26,7 @@ another. Also, ATL lacks good documentation when coming to advanced tricks,
 like collection manipulation and OLE containers.
 
 VRCOM tries to address these problems by combining multiple-inheritance and
-nested class approach. Also, I'll do my best to provide you an outstanding documentation.
+nested class approach.
 
 Ok, tell me more about it !
 ===========================
